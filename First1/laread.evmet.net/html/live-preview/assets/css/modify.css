@@ -26,3 +26,216 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+.mySlides {
+    display: none;
+  }
+  .mySlides img {
+    vertical-align: middle;
+  }
+  
+  /* Slideshow container */
+  .caraousel-exclusivas-container {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .slideshow-container {
+    position: relative;
+  }
+  .slideshow-container div figure .c-exclusivas-img {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 50%;
+    /* (img-height / img-width * width) */
+    /* (600 / 1200 * 100) */
+    display: block;
+    position: relative;
+  }
+  .slideshow-container div figure .c-exclusivas-img.im-1 {
+    background-image: url("https://lh5.googleusercontent.com/-cTEgPOnd3l8/U8-EmaZ4KNI/AAAAAAAABc8/6eacbALkQ6A/w1358-h905-no/carousel-1.JPG");
+  }
+  .slideshow-container div figure .c-exclusivas-img.im-2 {
+    background-image: url("https://lh4.googleusercontent.com/-ntVHbbWX5eo/U8-EmV8P4cI/AAAAAAAABc4/ICYBGkcztTc/w1358-h905-no/carousel-2.jpg");
+  }
+  .slideshow-container div figure .c-exclusivas-img.im-3 {
+    background-image: url("https://lh5.googleusercontent.com/-batEXUZE_e4/U8-EmLF9-hI/AAAAAAAABc0/J3tJVUa6Buk/w1358-h905-no/carousel-3.jpg");
+  }
+  .slideshow-container div figure .c-exclusivas-img.im-4 {
+    background-image: url("https://lh4.googleusercontent.com/-ntVHbbWX5eo/U8-EmV8P4cI/AAAAAAAABc4/ICYBGkcztTc/w1358-h905-no/carousel-2.jpg");
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    z-index: 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .prev {
+    left: 40px;
+  }
+  
+  .next {
+    right: 40px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /*
+  .active,
+  .dot:hover {
+      background-color: #717171;
+  }*/
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .c-btn-prev,
+    .c-btn-next,
+    .text {
+      font-size: 11px;
+    }
+  }
+  .carousel {
+    margin: 20px;
+  }
+  .carousel__view {
+    width: calc((200px * 4) + 22px);
+    height: 200px;
+    background: white;
+    box-shadow: 0 1px 8px #888888;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  .carousel__control {
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    width: 70px;
+    background-color: rgba(221, 221, 221, 0.5);
+    transition: background-color 0.3s;
+    display: table;
+  }
+  .carousel__control .icon {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .carousel__control:hover {
+    background-color: rgba(221, 221, 221, 0.8);
+  }
+  .carousel__control:first-of-type {
+    left: 0;
+  }
+  .carousel__control:last-of-type {
+    right: 0;
+  }
+  
+  .product-list {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.3s;
+    transform: translateX(0px);
+    list-style: none;
+    height: 200px;
+  }
+  .product-list__item {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+  }
+  
+  .product {
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+  .product span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+  }
+  .product[data-slide] {
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+  .product[data-slide="1"] {
+    background-image: url("https://lh5.googleusercontent.com/-cTEgPOnd3l8/U8-EmaZ4KNI/AAAAAAAABc8/6eacbALkQ6A/w1358-h905-no/carousel-1.JPG");
+  }
+  .product[data-slide="2"] {
+    background-image: url("https://lh4.googleusercontent.com/-ntVHbbWX5eo/U8-EmV8P4cI/AAAAAAAABc4/ICYBGkcztTc/w1358-h905-no/carousel-2.jpg");
+  }
+  .product[data-slide="3"] {
+    background-image: url("https://lh5.googleusercontent.com/-batEXUZE_e4/U8-EmLF9-hI/AAAAAAAABc0/J3tJVUa6Buk/w1358-h905-no/carousel-3.jpg");
+  }
+  .product[data-slide="4"] {
+    background-image: url("https://lh4.googleusercontent.com/-ntVHbbWX5eo/U8-EmV8P4cI/AAAAAAAABc4/ICYBGkcztTc/w1358-h905-no/carousel-2.jpg");
+  }
+  
