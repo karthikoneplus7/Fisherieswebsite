@@ -357,8 +357,8 @@ a:focus {
 .nav>li:hover>a,
 .nav>li.open>a:focus {
 	text-decoration: none;
-	background-color:rgb(124, 107, 12);
-	color: #a8a8a8;
+	background-color:transparent;color:gold;
+	/* color: #a8a8a8; */
 }
 .nav>li>ul {
 	opacity:0;
