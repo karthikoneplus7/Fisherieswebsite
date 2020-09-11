@@ -238,4 +238,12 @@
   .product[data-slide="4"] {
     background-image: url("https://lh4.googleusercontent.com/-ntVHbbWX5eo/U8-EmV8P4cI/AAAAAAAABc4/ICYBGkcztTc/w1358-h905-no/carousel-2.jpg");
   }
-  
+	.col-md-6 gi-item {
+		background-color: black;
+		text-decoration-color: white;
+	
+	}  
+  h1, h2, h3, h4, h5, h6 {
+		line-height: -30px;
+		color: goldenrod;
+	}

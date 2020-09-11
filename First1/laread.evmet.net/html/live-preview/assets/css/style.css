@@ -416,7 +416,7 @@ a:focus {
 	display: inline-block;
 }
 .nav>li>ul>li>a {
-	color: #6d6d70;
+	color:darkolivegreen;
 	padding: 19px 15px 20px;
 	display: inline-block;
 }
@@ -6260,8 +6260,9 @@ body .qr-black-theme,
 	margin-bottom: 8px;
 }
 .gallery-h1 {
+	
 	font-size: 38px;
-	color: #a28671;
+	color: goldenrod;
 	font-weight: 300;
 	margin-bottom: 36px;
 }
@@ -10286,4 +10287,4 @@ only screen and (                min-resolution: 2dppx){
     background-image: none;
     background-image:none;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
