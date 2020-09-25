@@ -925,7 +925,7 @@ body.is-push-bar-full {
 .post-item-short .big-text {
 	display: block;
 	font-size: 42px;
-	color: #6d6d70;
+	color: goldenrod;
 }
 .post-item-short .medium-text {
 	color: #6d6d70;
@@ -936,7 +936,7 @@ body.is-push-bar-full {
 }
 .post-item-short .small-text {
 	font-size: 15px;
-	color: #909091;
+	color: goldenrod;
 	display: inline-block;
 	margin-bottom: 6px;
 	line-height: 1;
