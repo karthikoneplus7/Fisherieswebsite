@@ -7527,7 +7527,7 @@ i.roman {
 	outline: none;
 }
 .more-down {
-	background-color: #d3d3d2;
+	background-color: black;
 	color: #FFF;
 	width: 174px;
 	height: 62px;
@@ -7538,7 +7538,7 @@ i.roman {
 	line-height: 62px;
 }
 .more-down:hover {
-	background-color: #bdbdbd;
+	background-color: brown;
 	color: #fff;
 	text-decoration: none;
 }
