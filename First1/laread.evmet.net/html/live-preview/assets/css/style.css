@@ -10288,3 +10288,23 @@ only screen and (                min-resolution: 2dppx){
     background-image:none;
     background-image: none;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  }
+}
+.list2{
+
+	display:flex; 
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: 6em;
+	/* margin: 2em; */
+}
+
+.mb-2{
+
+	margin: 1em;
+
+}
+.fishsize{
+	height: 155px;
+	width: auto;
+}
